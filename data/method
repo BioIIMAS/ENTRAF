@@ -1,0 +1,31 @@
+Main steps to include a regulatory protein in the database, following the strategy previously described in  (31):
+
+a)	2059 proteins were identified in Swissprot release-2024_01 with the following keywords: Transcription gene regulation; dna-binding; repression; activation; 
+repressor; activator; and regulator, considering the OR conditional. In addition, we used the filters: “anti-sigma; sigma” with the NOT conditional; 
+and constraining the search to “bacteria or archaea” (taxonomy filter). Finally, we selected those reviewed records with the highest annotation score of 5 
+(Reviewed by SwissProt).
+
+b)	650 proteins were retrieved from specialized databases, such as and additional databases, such as CollecTF (27), RegulomePA database (28); 
+RegulonDB (29); and Protein Data Bank (30). These proteins were mapped into the initial dataset of TFs.
+
+c)	275 Proteins with significant homology to non-TFs were excluded from the collection. To this end, BLAST searches against a nonredundant (NR) database at
+NCBI, with E-values of 10−3 and a coverage of at least 70%, were considered. In this step, we identified those proteins with not known regulatory roles, 
+such as peptidases, lipolytic enzymes, integrases, and transporters. We also searched into the references associated with the protein collection to 
+exclude manually proteins with annotations beyond gene regulation.
+
+d)	A total of 1784 proteins were considered as TFs and included in the collection if they have any of the 21  following experimental categories 
+(included in the website, section Experimental evidences) classified into strong and weak evidences: Assay of Protein Purified to Homogeneity; 
+Binding of Purified Proteins;  ChIP-seq;  Inferred from Direct Assay;  mRNA expression levels measured by qRT-PCR technique; One Hybrid Reporter system; 
+Primer Extension Analysis;  Proteomic studies; Protein structural determination; Fur titration assay; Site Mutation; Binding of Cellular Extracts; 
+Gene expression analysis; Author Statement; Inferred from Expression Pattern; Inferred from mutant phenotype;Inferred from Genetic interaction; 
+Reaction Blocked in Mutant; Microarrays; High throughput transcription initiation; Polyacrylamide gel electrophoresis (PAGE).
+
+e)	The complete set of sequence proteins included in ENTRAF was analyzed by considering by InterProScan-5.73-104.0 with the option -pa (pathways) - 
+goterms (GO assignments), -pfam (Pfam-37.2), and supfam (SUPERFAMILY 1.75) (domain assignments).
+
+f)	Finally, to classify functionally the collection of TFs, we followed a similar strategy previously described by Cortes-Avalos et al (2021) 
+associated with the AraC/XylS family. In this regard, an exhaustive association between the TF and its regulated genes was achieved together with the 
+GO annotation directly obtained from protein records and functional annotations of regulatory and binding mechanisms to the Gene Ontology (GO). For instance, 
+the curator assigned  “nucleotide metabolism” to PyrR of B. subtilis because this TF regulates transcriptional attenuation of the pyrimidine nucleotide (pyr) operon.  
+A similar way was displayed for all the records. Despite this simple classification, some of these proteins are able to regulate the expression of proteins involved in 
+different activities than those previously suggested. 
