@@ -2,6 +2,8 @@
 
 ENcyclopedia of TRAnscription Factors in Bacteria and Archaea genomes 
 
+https://entraf.iimas.unam.mx/
+
 
 ENTRAF provides a centralized, web-based location to organize information about 1784 TFs with experimental evidence, from bacteria and archaea organisms, collected from Swissprot, PDB, RegulonDB, RegulomeDB, CollecTF, and DBTBS.
 
